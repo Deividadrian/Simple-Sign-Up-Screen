@@ -36,7 +36,7 @@ body {
   margin-bottom: 3.125rem;
 }
 
-#header h1 {
+#header h2 {
   font: 600 4rem var(--title-font);
   color: var(--color-font-title);
   text-align: center;
@@ -50,12 +50,43 @@ body {
 }
 
 .box {
-  /*border: 1px white solid;*/
   border-radius: 1.5rem 1.5rem 0 0;
   width: 76.125rem;
   height: 43.75rem;
   position: relative;
-  background-image: linear-gradient(to right, transparent 1px, var(--base-color) 60%, #ffffff 40% );
+  background-image: linear-gradient(to right, transparent 1px, var(--base-color) 60%, #FFFFFF 40% );
   backdrop-filter: blur(10px);
   box-shadow: 0 10px 50px rgba(0, 0, 0, 0.3);
+}
+
+.box .SpecLogo {
+  margin-top: 4.25rem;
+  margin-left: 4.25rem;
+  position: absolute;
+}
+
+.box .elliose {
+  margin-left: 16.375rem;
+  margin-top: 11.875rem;
+  position: absolute;
+}
+
+.box .mascot {
+  margin-left: 11.437rem;
+  margin-top: 8.937rem;
+  position: relative;
+}
+
+.text {
+  width: 19.625rem;
+  height: 4.375rem;
+  margin-left: 13.562rem;
+  margin-top: 2.062rem;
+  position: absolute;
+  text-align: center;
+  border: 1px black solid;
+}
+
+.text h3, h4 {
+  color: #FFFFFF;
 }
