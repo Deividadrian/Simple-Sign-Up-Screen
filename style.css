@@ -78,15 +78,18 @@ body {
 }
 
 .text {
-  width: 19.625rem;
-  height: 4.375rem;
   margin-left: 13.562rem;
-  margin-top: 2.062rem;
+  margin-top: -2.5rem;
   position: absolute;
   text-align: center;
-  border: 1px black solid;
 }
 
-.text h3, h4 {
+.text h3 {
   color: #FFFFFF;
+  font: 600 1.5rem var(--title-font);
+}
+
+.text h4 {
+  color: #FFFFFF;
+  font: 600 0.875rem var(--title-font);
 }
