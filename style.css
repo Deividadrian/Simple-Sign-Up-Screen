@@ -102,6 +102,11 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 2rem;
+}
+
+.inputs {
+  margin-bottom: 2rem;
 }
 
 .title-Welcome h3 {
@@ -112,40 +117,101 @@ body {
   margin-bottom: 2rem;
 }
 
-.inputs-fields input {
+input:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+.input-email {
   height: 2.5rem;
   width: 22.375rem;
-  margin-bottom: 1rem;
   border-radius: 0.6rem;
   border: 1px solid var(--color-border-input);
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
 }
 
-.inputs-fields a {
-  margin-left: 17.7rem;
-  font: 400 0.875rem var(--title-font);
-  color: var(--base-color);
-  text-decoration: none;
+#email {
+  height: 1.5rem;
+  width: 19.875rem;
+  border: transparent;
 }
 
-.input-email input {
-  background-image: url(assets/icon-email.png);
-  background-repeat: no-repeat;
-  background-position: left 0.5rem top 0.4rem;
-  padding: 0 0 0 2.5rem;
-}
-
-.input-password input {
-  background-image: url(assets/padlock.png);
-  background-repeat: no-repeat;
-  background-position: left 0.5rem top 0.4rem;
-  padding: 0 0 0 2.5rem;
-}
-
-.input-password img {
+img.card {
   width: 1.5rem;
   height: 1.5rem;
   position: relative;
-  left: -37px;
-  top: 9px;
+  padding: 0 0.5rem 0 0.5rem;
+}
+
+.input-password {
+  height: 2.5rem;
+  width: 22.375rem;
+  border-radius: 0.6rem;
+  border: 1px solid var(--color-border-input);
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+#password{
+  height: 1.5rem;
+  width: 17.875rem;
+  border: transparent;
+}
+
+img.padlock{
+  width: 1.5rem;
+  height: 1.5rem;
+  position: relative;
+  padding: 0 0.5rem 0 0.5rem;
+}
+
+.input-password img.view{
+  width: 1.5rem;
+  height: 1.5rem;
+  position: relative;
+  left: 1px;
   cursor: pointer;
+}
+
+.inputs a { 
+  font: 400 0.875rem var(--title-font);
+  color: var(--base-color);
+  text-decoration: none;
+  position: relative;
+  left: 15.125rem;
+}
+
+.login {
+  width: 22.375rem;
+  height: 2.5rem;
+  background: var(--base-color);
+  color: #FFFFFF;
+  font: 400 0.875rem var(--title-font);
+  border-radius: 2.5rem;
+  border: transparent;
+  margin-bottom: 0.5rem;
+}
+
+.thickline {
+  border: 0;
+  background: linear-gradient(to right, transparent, #E6E9FA, transparent );
+  height: 2px;
+  overflow: visible;
+  padding: 0;
+  color: #828282;
+  font: 400 0.875reM var(--title-font);
+  text-align: center;
+}
+
+.thickline::after {
+  content: "Or";
+  display: inline-block;
+  position: relative;
+  top: -0.7em;
+  font-size: 1.4em;
+  padding: 0 0.3em;
+  background: #FFFFFF;
 }

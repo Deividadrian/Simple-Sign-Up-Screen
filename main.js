@@ -1,12 +1,12 @@
-const viewPassword = document.querySelector('.view');
+const viewPassword = document.querySelector('.view')
 
 viewPassword.addEventListener('click', function() {
 
-  let input = document.querySelector('#password');
+  let input = document.querySelector('#password')
 
   if (input.getAttribute('type') == 'password') {
-    input.setAttribute('type', 'text');
+    input.setAttribute('type', 'text')
   } else {
-    input.setAttribute('type', 'password');
+    input.setAttribute('type', 'password')
   }
 })
