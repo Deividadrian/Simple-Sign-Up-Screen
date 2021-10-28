@@ -1,3 +1,6 @@
+::-webkit-scrollbar {
+  display: none;
+}
 
 * {
   padding: 0;
@@ -202,7 +205,7 @@ img.padlock{
   overflow: visible;
   padding: 0;
   color: #828282;
-  font: 400 0.875reM var(--title-font);
+  font: 400 0.775rem var(--title-font);
   text-align: center;
 }
 
@@ -214,4 +217,58 @@ img.padlock{
   font-size: 1.4em;
   padding: 0 0.3em;
   background: #FFFFFF;
+}
+
+div.logins {
+  height: 2.5rem;
+}
+
+.google {
+  width: 10.937rem;
+  height: 2.5rem;
+  margin-right: 0.5rem;
+  border: 1px solid var(--base-color);
+  border-radius: 2.5rem;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font: 400 0.875rem var(--title-font); ;
+  color: var(--base-color);
+}
+ 
+.gitlab {
+  width: 10.937rem;
+  height: 2.5rem;
+  border-radius: 2.5rem;
+  border: 1px solid var(--base-color);
+  background: #FFFFFF;
+  position: relative;
+  top: -2.5rem;
+  left: 11.437rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: var(--base-color);
+  font: 400 0.875rem var(--title-font);
+}
+
+.have {
+  text-align: center;
+  font: 400 0.875rem var(--title-font);
+  color: #828282;
+  margin: 1.5rem;
+}
+
+.registration {
+  width: 22.375rem;
+  height: 2.5rem;
+  background: #FFFFFF;
+  color: var(--base-color);
+  font: 400 0.875rem var(--title-font);
+  border-radius: 2.5rem;
+  border: solid 1px var(--base-color);
+  margin-bottom: 0.5rem;
 }
